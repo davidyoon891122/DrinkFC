@@ -20,6 +20,9 @@ extension UNUserNotificationCenter {
         
         let trigger = UNCalendarNotificationTrigger(dateMatching: component, repeats: alert.isOn)
         
+        let request = UNNotificationRequest(identifier: alert.id, content: content, trigger: trigger)
+        
+        self.add(request, withCompletionHandler: nil)
     }
     
     
