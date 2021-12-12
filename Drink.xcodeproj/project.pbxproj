@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		AD2B386A2765CEAB00E9A6FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38692765CEAB00E9A6FE /* AppDelegate.swift */; };
 		AD2B386C2765CEAB00E9A6FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B386B2765CEAB00E9A6FE /* SceneDelegate.swift */; };
-		AD2B386E2765CEAB00E9A6FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B386D2765CEAB00E9A6FE /* ViewController.swift */; };
 		AD2B38712765CEAB00E9A6FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2B386F2765CEAB00E9A6FE /* Main.storyboard */; };
 		AD2B38732765CEAD00E9A6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2B38722765CEAD00E9A6FE /* Assets.xcassets */; };
 		AD2B38762765CEAD00E9A6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2B38742765CEAD00E9A6FE /* LaunchScreen.storyboard */; };
+		AD2B387E2765CEC400E9A6FE /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B387D2765CEC400E9A6FE /* AlertListViewController.swift */; };
+		AD2B38812765CFD000E9A6FE /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B387F2765CFD000E9A6FE /* AlertListCell.swift */; };
+		AD2B38822765CFD000E9A6FE /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B38802765CFD000E9A6FE /* AlertListCell.xib */; };
+		AD2B38842765D0E100E9A6FE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38832765D0E100E9A6FE /* Alert.swift */; };
+		AD2B38862765D32200E9A6FE /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38852765D32200E9A6FE /* AddAlertViewController.swift */; };
+		AD2B38882765DAE800E9A6FE /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38872765DAE800E9A6FE /* UNNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD2B38662765CEAB00E9A6FE /* Drink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2B38692765CEAB00E9A6FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD2B386B2765CEAB00E9A6FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD2B386D2765CEAB00E9A6FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD2B38702765CEAB00E9A6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD2B38722765CEAD00E9A6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD2B38752765CEAD00E9A6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD2B38772765CEAD00E9A6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2B387D2765CEC400E9A6FE /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		AD2B387F2765CFD000E9A6FE /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		AD2B38802765CFD000E9A6FE /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		AD2B38832765D0E100E9A6FE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		AD2B38852765D32200E9A6FE /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
+		AD2B38872765DAE800E9A6FE /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				AD2B38692765CEAB00E9A6FE /* AppDelegate.swift */,
 				AD2B386B2765CEAB00E9A6FE /* SceneDelegate.swift */,
-				AD2B386D2765CEAB00E9A6FE /* ViewController.swift */,
 				AD2B386F2765CEAB00E9A6FE /* Main.storyboard */,
 				AD2B38722765CEAD00E9A6FE /* Assets.xcassets */,
 				AD2B38742765CEAD00E9A6FE /* LaunchScreen.storyboard */,
 				AD2B38772765CEAD00E9A6FE /* Info.plist */,
+				AD2B387D2765CEC400E9A6FE /* AlertListViewController.swift */,
+				AD2B387F2765CFD000E9A6FE /* AlertListCell.swift */,
+				AD2B38802765CFD000E9A6FE /* AlertListCell.xib */,
+				AD2B38832765D0E100E9A6FE /* Alert.swift */,
+				AD2B38852765D32200E9A6FE /* AddAlertViewController.swift */,
+				AD2B38872765DAE800E9A6FE /* UNNotificationCenter.swift */,
 			);
 			path = Drink;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			files = (
 				AD2B38762765CEAD00E9A6FE /* LaunchScreen.storyboard in Resources */,
 				AD2B38732765CEAD00E9A6FE /* Assets.xcassets in Resources */,
+				AD2B38822765CFD000E9A6FE /* AlertListCell.xib in Resources */,
 				AD2B38712765CEAB00E9A6FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD2B386E2765CEAB00E9A6FE /* ViewController.swift in Sources */,
 				AD2B386A2765CEAB00E9A6FE /* AppDelegate.swift in Sources */,
 				AD2B386C2765CEAB00E9A6FE /* SceneDelegate.swift in Sources */,
+				AD2B38812765CFD000E9A6FE /* AlertListCell.swift in Sources */,
+				AD2B38842765D0E100E9A6FE /* Alert.swift in Sources */,
+				AD2B387E2765CEC400E9A6FE /* AlertListViewController.swift in Sources */,
+				AD2B38882765DAE800E9A6FE /* UNNotificationCenter.swift in Sources */,
+				AD2B38862765D32200E9A6FE /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
